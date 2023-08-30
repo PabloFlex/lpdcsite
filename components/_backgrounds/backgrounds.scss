@@ -1,0 +1,36 @@
+.BackgroundsBox{
+    position: absolute;
+    background-color: $color-1;
+    border-radius: 55px 0px 0px 55px;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .titleBg{
+        width: 60%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .backgroundBg{
+        width: 60%;
+        height: auto;
+        border-radius: 55px;
+        margin-left:20%;
+        margin-bottom: 10%;
+    }
+    .title2Bg{
+        width: 60%;
+        height: auto;
+        margin-left:20%;
+        margin-top:0%
+    }
+    .textBg{
+        width: 80%;
+        height: auto;
+        margin-top:0%;
+        margin-left:13%;
+    }
+}

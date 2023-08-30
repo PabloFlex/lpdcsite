@@ -1,0 +1,152 @@
+.slectionsBox {
+    position: absolute;
+    background-color: $color-1;
+    border-radius: 55px 0px 0px 55px;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .close {
+        z-index: 500;
+        position: fixed;
+        right: 2.5%;
+    }
+
+    h1{
+        
+        width: 50%;
+        color: $color-1;
+        background-color: $color-1;
+        margin: 0;
+        padding: 15% 0%;
+        border-radius: 0px 0px 55px 55px;
+        z-index: 202;
+        font-family: 'BarutaBlack';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 48px;
+    }
+    p {
+        background-color:$color-8;
+        border-radius: 0px 0px 55px 55px;
+        font-size: 14px;
+        padding: 100% 89px;
+        margin-top: -20%;
+        padding-bottom: 5%;
+        padding-top: 25%;
+        z-index: 201;
+        font-family: 'FuturaBold';
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .mixtape {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0px 0px 55px 55px;
+        padding-bottom: 5%;
+        padding-top: 25%;
+        margin-top: -20%;
+        font-family: 'BarutaBlack';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $color-4;
+            img {
+                width: 70%;
+                margin-left: 1%;
+                margin: 10%;
+            }
+        }
+         img {
+             width: 70%;
+         }
+    }
+
+
+    .n1 {
+        background-color: $color-1;
+        z-index: 200;
+        
+        color: $color-1;
+    }
+
+    .n2 {
+        background-color: $color-1;
+        z-index: 199;
+        color: $color-8;
+    }
+
+    .n3 {
+        background-color: $color-8;
+        z-index: 198;
+        color: $color-1;
+    }
+
+    .n4 {
+        background-color: $color-1;
+        z-index: 197;
+        color: $color-8;
+    }
+
+    .n5 {
+        background-color: $color-8;
+        z-index: 196;
+        color: $color-1;
+    }
+
+    .n6 {
+        background-color: $color-1;
+        z-index: 195;
+        color: $color-8;
+    }
+
+    .n7 {
+        background-color: $color-8;
+        z-index: 194;
+        color: $color-1;
+    }
+
+    .decouvrez {
+        width: 90%;
+        color: $color-4;
+        font-size: 14px;
+        font-family: 'FuturaBold';
+
+        a {
+            color: $color-4;
+        }
+    }
+    .titleMain {
+        font-size: 45px; 
+        width: 100%;
+        color: $color-1;
+        background-color: $color-4;
+        margin: 0;
+        border-radius: 0px 0px 55px 55px;
+        z-index: 202;
+        font-family: 'BarutaBlack';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .bendu {
+         width: 100%;
+    }
+    .buttonListen {
+        width: 50%;
+    }
+}

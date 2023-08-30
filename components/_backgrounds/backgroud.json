@@ -1,0 +1,15 @@
+[
+    {
+            "id": "1",
+            "name": "L'originale",
+            "url": "/image/background/bg1.gif",
+            "description":"/image/background/desk1.png"
+    },
+    {
+            "id": "2",
+            "name": "L'originale",
+            "url": "/image/background/bg4.png",
+            "description":"/image/background/desk2.png"
+    }
+   
+]

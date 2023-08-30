@@ -1,0 +1,79 @@
+.jingleBox{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    z-index: 20;
+
+
+    .page1{
+        text-align: center;
+        color: $color-6;
+        background-color: $color-7;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logoJingle{
+            width: 10%;
+            height: auto;
+            margin-right: 78%;
+            margin-top: 4%;
+        }
+
+        .closeJingle{
+            position: absolute;
+            width: 3%;
+            height: auto;
+            cursor: pointer;
+            margin-left: 90%;
+            margin-top: 3%;
+        }
+        .textJingle{
+            width: 30%;
+            height: auto;
+        }
+        .btnScrollJingle{
+            width: 7%;
+            height: auto;
+            margin-top: 2%;
+            cursor: pointer;
+        }
+    }
+
+    .jinglePage{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 100vh;
+        width: 100%;
+        padding: 3% 0%;
+
+        .closeJingle{
+            width: 3%;
+            height: auto;
+            cursor: pointer;
+            margin-left: 90%;
+            margin-bottom: -5%;
+            margin-top: -5%;
+        }
+        .titleJingle{
+            width:50% ;
+            height: auto;
+            margin-top: -15%;
+            margin-bottom: -15%;
+        }
+        .playJingle{
+            width: 7% ;
+            height: auto;
+            z-index: 1000;
+        }
+
+    }
+
+
+    
+}

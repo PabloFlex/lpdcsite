@@ -1,0 +1,156 @@
+//----------------------Nav-bar global-----------------------------------------------
+
+.shop{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10vh;
+    right: 13vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.burgerMenu{     
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10vh;
+    right: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+
+    .o1{
+        width: 10px;
+        height: 10px;
+        background-color: $color-5;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .o2{
+        width: 10px;
+        height: 10px;
+        background-color: $color-6;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .o3{
+        width: 10px;
+        height: 10px;
+        background-color: $color-7;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .btnShop{
+        z-index: -1000;
+    }
+}
+
+
+.Navigation{
+    width: 25%;
+    height: 100%;
+    background-color: $color-1;
+    border-radius: 55px 0px 0px 55px;
+    border-left: 10px solid #931541;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: $color-2;
+    z-index: 10;
+    min-width: 300px;
+    
+    .close{
+        position: absolute;
+        right: 7%;
+        top: 10px;
+        cursor: pointer;
+        width: 46px;
+    }
+
+    .titleMenu{
+        margin-top: 7%;
+        margin-bottom: 5%;
+        width: 30%;
+        height: auto;
+    }
+    .Menu{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        overflow-y: scroll;
+        img{
+            height: auto;
+            width: 55%;
+            margin: 4px 5px;
+            cursor: pointer;
+        }
+        .img2{
+            height: auto;
+            width: 40%;
+        }
+        .group1{
+          display: flex;
+          justify-content: center;
+            width: 38%;
+            img{
+                height: auto;
+                width: 90%;
+            }
+        }
+        .btnImg{
+            width: 70%;
+        }
+        .btnImg2{
+            width: 40%;
+        }
+        .group2{
+            display: flex;
+            justify-content: center;
+            width: 75%;
+            img{
+                height: auto;
+                width: 90%;
+            }
+        }
+        .group3 {
+            display: flex;
+            justify-content: center;
+            width: 45%;
+            img{
+                height: auto;
+                width: 90%;
+            }
+        }
+          .btnImgBack {
+              margin-left:25%
+          }
+         
+    }
+
+}
+     
+
+        
+    
+    .NavLinks{
+        background-color: aqua;
+    }
+
+
+
+
+
+
+
